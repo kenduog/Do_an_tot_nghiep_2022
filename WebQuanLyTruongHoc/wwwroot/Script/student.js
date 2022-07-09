@@ -12,8 +12,20 @@ app.controller('studentCtrl', ['$scope', '$http', 'toastr', function ($scope, $h
     $scope.comfirmPassword = "";
     $scope.status = "";
  
+    $scope.EditStudent = function () {
+        
+        if ($scope.password == $scope.comfirmPassword) {
+            $http.post('https://localhost:44300/api/Students/CreateStudent', JSON.stringify(body)).then(function (response) {
+                if (response.data)
+                    toastr.success('Đã thêm một dữ liệu mới', 'Thành công');
+            });
+        }
+        else {
+            toastr.error('Vui lòng thử lại.', 'Mật khẩu không khớp!');
+        }
+    }
     $scope.AddStudent = function () {
-        debugger
+        
         if ($scope.password == $scope.comfirmPassword) {
             var body = {
                 "firstName": $scope.firstName,

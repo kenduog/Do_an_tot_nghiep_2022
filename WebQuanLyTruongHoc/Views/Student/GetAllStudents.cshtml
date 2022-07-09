@@ -1,0 +1,82 @@
+﻿@{
+    ViewData["Title"] = "Tất Cả Học Sinh";
+    Layout = "_Layout";
+}
+<body class="bg-theme bg-theme9">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <div id="wrapper">
+
+
+        <div class="clearfix"></div>
+
+        <div class="content-wrapper">
+            <div class="container-fluid">
+
+            </div><div class="wrapper">
+
+                <div ng-app="myApp2" ng-controller="studentCtrl2">
+                    <div class="card-body">
+                        <h3 class="card-title">Danh Sách Tất Cả Học Sinh</h3>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Thứ tự</th>
+                                        <th>Code</th>
+                                        <th>Họ và tên</th>
+                                        <th>Ngày sinh</th>
+                                        <th>Tuổi</th>
+                                        <th>Địa chỉ</th>
+                                        <th>Số điện thọai</th>
+                                        <th>Quá trình</th>
+                                        <th>Tên đăng nhập</th>
+                                        <th>Trạng thái</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr ng-repeat="x in listStudents">
+                                        <td>{{$index+1}}</td>
+                                        <td>{{x.code}}</td>
+                                        <td>{{x.lastName}} {{x.fisrtName}}</td>
+                                        <td>{{x.birthDate | date : 'dd/MM/yyyy'}}</td>
+                                        <td>{{x.age}}</td>
+                                        <td>{{x.address}}</td>
+                                        <td>{{x.phone}}</td>
+                                        <td>{{x.process}}</td>
+                                        <td>{{x.userName}}</td>
+                                        <td>{{x.status}}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div>
+                                Tổng số học sinh: {{totalStudent}} học sinh
+                            </div>
+                        </div>
+                    </div>
+                    <script src="~/Script/student.js"></script>
+                </div>
+    <!--End content-wrapper-->
+                <!--Start Back To Top Button-->
+                <a href="javaScript:void();" class="back-to-top"><i class="fa fa-angle-double-up"></i> </a>
+                <!--End Back To Top Button-->
+                <!--End wrapper-->
+                <!-- Bootstrap core JavaScript-->
+                <script src="~/assets/js/jquery.min.js"></script>
+                <script src="~/assets/js/popper.min.js"></script>
+                <script src="~/assets/js/bootstrap.min.js"></script>
+
+                <!-- simplebar js -->
+                <script src="~/assets/plugins/simplebar/js/simplebar.js"></script>
+                <!-- sidebar-menu js -->
+                <script src="~/assets/js/sidebar-menu.js"></script>
+                <!-- loader scripts -->
+                <script src="~/assets/js/jquery.loading-indicator.js"></script>
+                <!-- Custom scripts -->
+                <script src="~/assets/js/app-script.js"></script>
+                <!-- Chart js -->
+
+                <script src="~/assets/plugins/Chart.js/Chart.min.js"></script>
+
+                <!-- Index js -->
+                <script src="~/assets/js/index.js"></script>
+</body>

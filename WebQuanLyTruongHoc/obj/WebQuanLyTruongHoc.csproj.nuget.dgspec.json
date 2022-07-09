@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DOANTOTNGHIEP\\WebQuanLyTruongHoc\\WebQuanLyTruongHoc.csproj": {}
+    "D:\\Do_an_tot_nghiep_2022\\Do_an_tot_nghiep_2022\\WebQuanLyTruongHoc\\WebQuanLyTruongHoc.csproj": {}
   },
   "projects": {
-    "D:\\DOANTOTNGHIEP\\WebQuanLyTruongHoc\\WebQuanLyTruongHoc.csproj": {
+    "D:\\Do_an_tot_nghiep_2022\\Do_an_tot_nghiep_2022\\WebQuanLyTruongHoc\\WebQuanLyTruongHoc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DOANTOTNGHIEP\\WebQuanLyTruongHoc\\WebQuanLyTruongHoc.csproj",
+        "projectUniqueName": "D:\\Do_an_tot_nghiep_2022\\Do_an_tot_nghiep_2022\\WebQuanLyTruongHoc\\WebQuanLyTruongHoc.csproj",
         "projectName": "WebQuanLyTruongHoc",
-        "projectPath": "D:\\DOANTOTNGHIEP\\WebQuanLyTruongHoc\\WebQuanLyTruongHoc.csproj",
+        "projectPath": "D:\\Do_an_tot_nghiep_2022\\Do_an_tot_nghiep_2022\\WebQuanLyTruongHoc\\WebQuanLyTruongHoc.csproj",
         "packagesPath": "C:\\Users\\kendu\\.nuget\\packages\\",
-        "outputPath": "D:\\DOANTOTNGHIEP\\WebQuanLyTruongHoc\\obj\\",
+        "outputPath": "D:\\Do_an_tot_nghiep_2022\\Do_an_tot_nghiep_2022\\WebQuanLyTruongHoc\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

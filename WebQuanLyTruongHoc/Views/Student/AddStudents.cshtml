@@ -1,0 +1,121 @@
+﻿@{
+    ViewData["Title"] = "Tất Cả Học Sinh";
+    Layout = "_Layout";
+}
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="~/css/angular-toastr.css" />
+    <script type="text/javascript"  src="~/js/angular-toastr.tpls.js"></script>
+</head>
+<body class="bg-theme bg-theme9">
+    <div id="wrapper">
+
+
+        <div class="clearfix"></div>
+
+        <div class="content-wrapper">
+            <div class="container-fluid">
+
+            </div><div class="wrapper">
+
+                <div ng-app="myApp" ng-controller="studentCtrl">
+                    <h3 class="card-title">Thêm Học Sinh</h3>
+                    <div class="tab-pane" id="addStudent">
+                        <form>
+                            <div class="form-group row">
+                                <label class="col-lg-3 col-form-label form-control-label">Tên</label>
+                                <div class="col-lg-9">
+                                    <input class="form-control" type="text" ng-model="firstName" placeholder="Vui lòng nhập tên học sinh">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-lg-3 col-form-label form-control-label">Họ</label>
+                                <div class="col-lg-9">
+                                    <input class="form-control" type="text" ng-model="lastName" placeholder="Vui lòng nhập họ học sinh">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-lg-3 col-form-label form-control-label">Ngày sinh</label>
+                                <div class="col-lg-9">
+                                    <input class="form-control" type="date" ng-model="birthDate">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-lg-3 col-form-label form-control-label">Địa chỉ</label>
+                                <div class="col-lg-9">
+                                    <input class="form-control" type="text" ng-model="address" placeholder="Vui lòng nhập địa chỉ">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-lg-3 col-form-label form-control-label">Số điện thoại</label>
+                                <div class="col-lg-9">
+                                    <input class="form-control" type="text" ng-model="phone" placeholder="Vui lòng nhập số điện thoại">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-lg-3 col-form-label form-control-label">Quá trình</label>
+                                <div class="col-lg-9">
+                                    <input class="form-control" type="text" ng-model="process" placeholder="Vui lòng quá trình">
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label class="col-lg-3 col-form-label form-control-label">Tên đăng nhập</label>
+                                <div class="col-lg-9">
+                                    <input class="form-control" type="text" ng-model="userName" placeholder="Vui lòng nhập tên đăng nhập">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-lg-3 col-form-label form-control-label">Mật khẩu</label>
+                                <div class="col-lg-9">
+                                    <input class="form-control" type="password" ng-model="password" placeholder="Vui lòng nhập mật khẩu">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-lg-3 col-form-label form-control-label">Xác nhận mật khẩu</label>
+                                <div class="col-lg-9">
+                                    <input class="form-control" type="password" ng-model="comfirmPassword" placeholder="Vui lòng xác nhận mật khẩu">
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label class="col-lg-3 col-form-label form-control-label">Trạng thái</label>
+                                <div class="col-lg-1">
+                                    <input class="form-control" type="checkbox" ng-model="status">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-lg-3 col-form-label form-control-label"></label>
+                                <div class="col-lg-9">
+                                    <input type="button" class="btn btn-primary" ng-click="AddStudent()" value="Thêm học sinh">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <script src="~/Script/student.js"></script>
+                </div>
+                <!--End content-wrapper-->
+                <!--Start Back To Top Button-->
+                <a href="javaScript:void();" class="back-to-top"><i class="fa fa-angle-double-up"></i> </a>
+                <!--End Back To Top Button-->
+                <!--End wrapper-->
+                <!-- Bootstrap core JavaScript-->
+                <script src="~/assets/js/jquery.min.js"></script>
+                <script src="~/assets/js/popper.min.js"></script>
+                <script src="~/assets/js/bootstrap.min.js"></script>
+
+                <!-- simplebar js -->
+                <script src="~/assets/plugins/simplebar/js/simplebar.js"></script>
+                <!-- sidebar-menu js -->
+                <script src="~/assets/js/sidebar-menu.js"></script>
+                <!-- loader scripts -->
+                <script src="~/assets/js/jquery.loading-indicator.js"></script>
+                <!-- Custom scripts -->
+                <script src="~/assets/js/app-script.js"></script>
+                <!-- Chart js -->
+
+                <script src="~/assets/plugins/Chart.js/Chart.min.js"></script>
+
+                <!-- Index js -->
+                <script src="~/assets/js/index.js"></script>
+</body>

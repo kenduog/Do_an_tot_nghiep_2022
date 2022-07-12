@@ -26,7 +26,9 @@
     <link href="/assets/css/sidebar-menu.css" rel="stylesheet" />
     <!-- Custom Style-->
     <link href="~/assets/css/app-style.css" rel="stylesheet" />
-
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="~/css/angular-toastr.css" />
+    <script type="text/javascript" src="~/js/angular-toastr.tpls.js"></script>
 </head>
 <body class="bg-theme bg-theme9">
     <!--Start topbar header-->
@@ -128,6 +130,11 @@
             <li>
                 <a asp-controller="Student" asp-action="GetAllStudents">
                     <i class="zmdi zmdi-face"></i> <span>Danh Sách Tất Cả Học Sinh</span>
+                </a>
+            </li>
+            <li>
+                <a asp-controller="Student" asp-action="AddStudents">
+                    <i class="zmdi zmdi-face"></i> <span>Thêm Học Sinh</span>
                 </a>
             </li>
         </ul>

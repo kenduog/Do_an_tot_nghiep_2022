@@ -88,3 +88,4 @@ D:\Do_an_tot_nghiep_2022\Do_an_tot_nghiep_2022\WebQuanLyTruongHoc\obj\Debug\net5
 D:\Do_an_tot_nghiep_2022\Do_an_tot_nghiep_2022\WebQuanLyTruongHoc\obj\Debug\net5.0\WebQuanLyTruongHoc.genruntimeconfig.cache
 D:\Do_an_tot_nghiep_2022\Do_an_tot_nghiep_2022\WebQuanLyTruongHoc\obj\Debug\net5.0\WebQuanLyTruongHoc.csproj.CopyComplete
 D:\Do_an_tot_nghiep_2022\Do_an_tot_nghiep_2022\WebQuanLyTruongHoc\obj\Debug\net5.0\WebQuanLyTruongHoc.csproj.AssemblyReference.cache
+D:\Do_an_tot_nghiep_2022\Do_an_tot_nghiep_2022\WebQuanLyTruongHoc\obj\Debug\net5.0\Razor\Views\Classroom\AddClassroom.cshtml.g.cs
